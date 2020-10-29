@@ -1,0 +1,21 @@
+<html>
+<script>
+function Celsius_to_Farenheit(celsius) 
+{
+  var celsius_Temp = celsius;
+  var celsius_to_Fahrenheit = (celsius_Temp * (9/5)) + 32;
+  document.write(celsius_Temp+'\xB0C is ' + celsius_to_Fahrenheit + '\xB0F.'+"<br>");
+  
+	
+}
+
+function Fahrenheit_to_Celsius(fahrenheit) 
+{
+  var fahrenheit_Temp = fahrenheit;
+  var fahrenheit_to_Celsius = (fahrenheit_Temp-32)*(5 / 9);
+  document.write(fahrenheit_Temp+'\xB0F is ' + fahrenheit_to_Celsius + '\xB0C.');
+} 
+Celsius_to_Farenheit(85);
+Fahrenheit_to_Celsius(65);
+</script>
+</html>

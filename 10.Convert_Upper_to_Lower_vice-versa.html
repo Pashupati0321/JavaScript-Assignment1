@@ -1,0 +1,10 @@
+<html>
+<script>
+convert = function convert(s) {
+        return s.replace(/([a-z]+)|([A-Z]+)/g, function(match, chr) {
+            return chr ? match.toUpperCase() : match.toLowerCase();
+        });
+    }
+document.write(convert('AaBbc'));
+</script>
+</html>

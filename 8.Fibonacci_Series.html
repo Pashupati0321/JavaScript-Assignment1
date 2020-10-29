@@ -1,0 +1,22 @@
+<html>
+<script> 
+function fibo(n) 
+{ 
+    var a=0, b=1, s;  
+    var i=0; 
+	document.write("Fibonacci series: ")
+    for (i = 1; i <=n ; i++)  
+    { 
+	    document.write(a+", ");
+        s=a+b; 
+        a=b; 
+        b=s; 
+		
+    } 
+     
+} 
+let num=parseInt(prompt("Enter the number"));
+fibo(num);  
+ 
+</script> 
+</html>

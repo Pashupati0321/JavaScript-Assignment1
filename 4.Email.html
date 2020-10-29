@@ -1,0 +1,15 @@
+<html>
+<script>
+protect_email = function (email) 
+{
+    var avg, a1, a2;
+    var split = email.split("@");
+    a1 = split[0];
+    avg = a1.length / 2;
+    a1 = a1.substring(0, (a1.length - avg));
+    a2 = split[1];
+    document.write(a1 + "...@" + a2);
+}
+document.write(protect_email("eddygrant@example.com"));
+</script>
+</html>
